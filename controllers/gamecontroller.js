@@ -113,4 +113,4 @@ router.delete('/remove/:id', (req, res) => {
     )
 })
 
-module.exports = routers;
+module.exports = router; // error: 'routers' change on 'router'(5)

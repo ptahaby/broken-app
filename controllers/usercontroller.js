@@ -1,4 +1,4 @@
-var router = Router();
+var router = require('express').Router(); // error: import express(1)
 var bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 
